@@ -15,14 +15,14 @@ def isFibonacci(n):
 
 
 # A utility function to test above functions
-for i in range(1, 122):
+for i in range(1, 170):
     if isFibonacci(i) == True:
-        print(i, "is a Fibonacci Number")
+        print(i, "is a fibonacci Number")
     else:
-        print(i, "is a not Fibonacci Number ")
-for i in range(1, 122):
+        print(i, "is a not fibonacci Number ")
+for i in range(1, 170):
     if isPerfectSquare(i) == True:
-        print(i, "is a perfect square")
+        print(i, "is a Perfect Square")
     else:
-        print(i, "is not a perfect square")
+        print(i, "is not a Perfect Square")
 # how can I make this print two columns?
